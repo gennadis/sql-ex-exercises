@@ -17,6 +17,11 @@ docker compose -f docker-compose.yaml up -d --build
 ```
 
 4. Connect to `Postgres` database:
+- from host:
 ```
 docker compose -f docker-compose.yaml exec db psql -U <user>
+```
+- from client:
+```
+psql -h <host ip address> -U <user>
 ```
