@@ -1,5 +1,8 @@
-## Instructions
+# Sql-ex exercises. Dockerized.
+This project brings you all the databases from [sql-ex.ru](https://www.sql-ex.ru/) - dockerized with `Postgres`!\
+Database dump imports automatically with `docker-compose`.
 
+## Instructions
 1. Clone this repository:
 ```bash
 git clone https://github.com/gennadis/sql-ex-exercises.git
