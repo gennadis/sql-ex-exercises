@@ -1,3 +1,6 @@
-SELECT *
-FROM printer
-WHERE color = 'y';
+SELECT
+  *
+FROM
+  printer
+WHERE
+  color = 'y';

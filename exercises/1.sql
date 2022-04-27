@@ -1,5 +1,8 @@
-SELECT model,
-    speed,
-    hd
-FROM pc
-WHERE price < 500;
+SELECT
+  model,
+  speed,
+  hd
+FROM
+  pc
+WHERE
+  price < 500;
