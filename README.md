@@ -9,7 +9,6 @@ cd postgres-tutorial
 ```
 POSTGRES_USER=<user>
 POSTGRES_PASSWORD=<password>
-POSTGRES_DB=<db>
 ```
 
 3. Build and run docker container with `Postgres`:
@@ -19,5 +18,5 @@ docker compose -f docker-compose.yaml up -d --build
 
 4. Connect to `Postgres` database:
 ```
-
+docker compose -f docker-compose.yaml exec db psql -U <user>
 ```
