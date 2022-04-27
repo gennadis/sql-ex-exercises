@@ -3,12 +3,12 @@ version: '3.8'
 services:
   postgres:
     image: postgres:14-alpine
-    container_name: tutorial-postgres
+    container_name: sql-ex
     ports:
       - 5432:5432
     volumes:
       - postgres_data:/var/lib/postgresql/data/
-      - ./sql-ex-pg.sql:/docker-entrypoint-initdb.d/sql-ex-pg.sql
+      - ./sql-ex-dump.sql:/docker-entrypoint-initdb.d/sql-ex-dump.sql
     env_file:
       - ./.env
 
