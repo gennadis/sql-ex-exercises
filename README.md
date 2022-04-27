@@ -5,7 +5,7 @@
 git clone https://github.com/gennadis/postgres-tutorial.git
 cd postgres-tutorial
 ```
-2. Rename `example.env` file and fill in your secrets
+2. Rename `example.env` file to `.env` and set your secrets
 ```
 POSTGRES_USER=<user>
 POSTGRES_PASSWORD=<password>
