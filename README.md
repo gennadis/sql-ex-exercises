@@ -2,8 +2,8 @@
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/gennadis/postgres-tutorial.git
-cd postgres-tutorial
+git clone https://github.com/gennadis/sql-ex-exercises.git
+cd sql-ex-exercises
 ```
 2. Rename `example.env` file to `.env` and set your secrets
 ```
